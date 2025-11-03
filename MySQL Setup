@@ -1,0 +1,7 @@
+CREATE TABLE account (
+    acc_no INT PRIMARY KEY,
+    holder_name VARCHAR(50),
+    balance DECIMAL(10,2)
+);
+
+INSERT INTO account VALUES (101, 'Riya', 5000.00), (102, 'Amit', 3000.00);
